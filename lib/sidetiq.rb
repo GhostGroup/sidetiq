@@ -8,6 +8,7 @@ require 'time'
 require 'ice_cube'
 require 'sidekiq'
 require 'celluloid'
+require 'celluloid/supervision'
 
 # internal
 require 'sidetiq/config'
