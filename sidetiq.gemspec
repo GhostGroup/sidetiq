@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'sidekiq',   '~> 3.0'
   gem.add_dependency 'celluloid', '~> 0.17.0'
-  #gem.add_dependency 'celluloid-supervision', '>= 0.20.0'
+  gem.add_dependency 'celluloid-supervision', '>= 0.20.0'
   gem.add_dependency 'ice_cube',  '0.11.1'
 
   gem.add_development_dependency 'rake'
